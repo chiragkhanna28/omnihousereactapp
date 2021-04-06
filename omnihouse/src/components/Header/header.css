@@ -1,0 +1,27 @@
+.header_wrapper{
+    padding: 15px;
+}
+.homeicon_wrapper{
+   width: 70px;
+   height: 70px;
+}
+.homeicon_wrapper svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.left_wrapper{
+    display: flex;
+    align-items: center;
+    float:left;
+}
+.margin_10_left{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.right_wrapper{
+    float:right;
+    display: flex;
+}
+

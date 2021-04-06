@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.margin_0{
+  margin: 0;
+}
+.font_26{
+  font-size: 26px;
+  font-weight: 500;
+}
+.font_22{
+  font-size: 22px;
+  font-weight: 500;
+}
+.white_color{
+  color: #FFF;
+}
+.margin_20{
+  margin-right: 20px;
+}
+.font_20{
+  font-size: 20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.margin_tp_bt_15{
+  margin: 15px 0;
+}
+.red_color{
+  color: #D41553;
+}
+.gray_color{
+  color:#C7BCC5
+}
+.font_italic{
+  font-style: italic;
+}
+.margin_8{
+  margin: 8px 0;
+}
+.floatLeft{
+  float: left;
+  z-index:10;
+  position: relative;
+}
+.red_color{
+  color:'red'
+}
+.floatRight{
+  float: right;
+  z-index:10;
+  position: relative;
+}
+.center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.ref_check_wrapper{
+  background-color: #282323;
+  width: 400px;
+  margin: 0 auto 60px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.ref_header_wrapper{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+.help_icon{
+  position: absolute;
+  right: 0;
+}
+.ref_check_btn{
+  background-color: #93227F;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+.bgcolor_pink{
+  background-color: #93227F;
+}
+.dis_block{
+  display: block;
+}
+.margin_bt_10{
+  margin-bottom: 10px;
+}
+*:focus {
+  outline: none;
+}
+::placeholder {
+  color: #C7BCC5;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #C7BCC5;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color:#C7BCC5;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.horizontal_line{
+  border-bottom: 1px solid #3E3A3D;
+}
+.stripe_logo_container{
+  text-align: center;
+}
+.total_price_section{
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.total_price{
+  margin: 5px 0 0 8px;
+}
+.ReactModal__Overlay{
+  z-index: 100;
+}
+.ReactModal__Content{
+  background-color: #1C1A1B;
+}
+.react-responsive-modal-container .react-responsive-modal-modal{
+  background-color: #1C1A1B;
+  max-width: 500px;
+  border-radius: 20px;
+}
+.white_color_version{
+  color: #F9F3FA;
+  font-size: 18px;
+}
+.react-responsive-modal-modal .react-responsive-modal-closeButton svg{
+  fill:#FFF;
+  top:35px;
+}
+.margin_top_15{
+  margin-top: 15px;
+}
+.margin_bottom_30{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,49 @@
+.form_input{
+    border: 1px solid #93227F;
+    background-color: #212020;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 15px 0 25px;
+    color: #FFF;
+}
+.add_other_container{
+    margin-bottom: 25px;
+}
+.add_other{
+    border: 1px solid #93227F;
+    border-radius: 25px;
+    padding: 10px 25px;
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card_payment{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+}
+.recaptcha_wrapper{
+    margin: 0 auto 25px;
+    position: relative;
+}
+.g-recaptcha {
+    display: inline-block;
+}
+.recaptcha_wrapper div div div{
+    margin: 15px auto;
+}
+.field_wrapper{
+    position: relative;
+}
+.error_message{
+    position: absolute;
+    top:100%;
+    font-size: 12px;
+}
+.recaptcha_center_error_message{
+    left:50%;
+    transform: translateX(-50%);
+}
